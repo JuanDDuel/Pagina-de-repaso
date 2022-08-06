@@ -1,0 +1,24 @@
+head{
+    color:black;
+    border-color: blueviolet;
+}
+h1{
+    font-size: large;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border-left: 200px;
+}
+#boton,#boton-1,#boton-2,#boton-3,#boton-4,#boton-5,#boton-6,#boton-7,#boton-8{
+    color: white;
+    background-color: black;
+    border-color: rgba(255, 255, 255, 0.212);
+    border-color: blueviolet;
+    font-family: 'Cormorant SC', serif;
+}
+body{
+    background-color: rgb(58, 15, 99);
+    background-image: url(2593781.jpg);
+    background-size: cover;
+}

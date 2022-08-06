@@ -1,0 +1,43 @@
+head{
+    color:black;
+    border-color: blueviolet;
+}
+h1{
+    font-size: large;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border-left: 200px;
+}
+#boton,#boton-1{
+    color: white;
+    background-color: black;
+    border-color: rgba(255, 255, 255, 0.212);
+    border-color: blueviolet;
+    font-family: 'Cormorant SC', serif;
+}
+body{
+    color: white;
+    background-color: rgb(6, 2, 10);
+    background-image: linear-gradient(rgba(7, 12, 5, 0.75),rgba(5,7,12,0.75)),url(2593781.jpg);
+    background-size: cover;
+}
+span{
+    color: antiquewhite;
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 13ch;
+
+    animation: typing 2s steps(13),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing{
+    from { width: 0;}
+}
+@keyframes blink {
+    50% {border-color: transparent;}
+}
