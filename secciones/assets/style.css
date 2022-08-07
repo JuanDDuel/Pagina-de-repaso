@@ -2,7 +2,7 @@ head{
     color:black;
     border-color: blueviolet;
 }
-h1{
+#titulos{
     font-size: large;
     font-family: 'Signika Negative', sans-serif;
     background-color: rgba(0, 0, 0, 0.89);
@@ -10,7 +10,7 @@ h1{
     border-radius: 50px;
     border-left: 200px;
 }
-#boton,#boton-1{
+#boton,#boton-1,#boton-2,#boton-3,#boton-4{
     color: white;
     background-color: black;
     border-color: rgba(255, 255, 255, 0.212);
@@ -20,8 +20,12 @@ h1{
 body{
     color: white;
     background-color: rgb(6, 2, 10);
-    background-image: linear-gradient(rgba(7, 12, 5, 0.75),rgba(5,7,12,0.75)),url(2593781.jpg);
+    background-image: linear-gradient(rgba(7, 12, 5, 0.75),rgba(5, 7, 12, 0.425)),url(2593781.jpg);
     background-size: cover;
+}
+#titulon1{
+    color: white;
+    font-family: 'Signika Negative', sans-serif;
 }
 span{
     color: antiquewhite;
@@ -40,4 +44,14 @@ span{
 }
 @keyframes blink {
     50% {border-color: transparent;}
+}
+#content{
+    height:950px;
+    width: 850px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+#content2{
+    height:950px;
+    width: 850px;
+    background-color: rgba(0, 0, 0, 0.137);
 }
